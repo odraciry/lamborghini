@@ -20,6 +20,8 @@ body{
     height: 100%;
     box-sizing: border-box;
     padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
     filter: contrast(50%);
     animation: intro 2s forwards;
     transition: 3s all;
