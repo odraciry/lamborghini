@@ -17,23 +17,25 @@ body{
 }
 #introducao{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     box-sizing: border-box;
     padding-top: 15%;
     padding-left: 5%;
     padding-right: 5%;
-    filter: contrast(50%);
+    filter: contrast(70%);
     animation: intro 2s forwards;
+    background-color: #ffffff84;
     transition: 3s all;
 }
 #introducao h1{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 10rem;
-    text-shadow: 5px 10px 10px rgba(37, 37, 36, 0.873);
+    text-shadow: 5px 10px 10px rgba(18, 18, 17, 0.685);
 }
 #introducao p{
     color: #ffffff;
     font-size: 1rem;
+    text-shadow: 5px 10px 10px rgb(18, 18, 17);
 }
 #introducao a{
     color: #ffdd00;
